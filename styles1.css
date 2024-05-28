@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/04/17/04/pink-1121216_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #e66baa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 15px rgb(54, 54, 135);
+    width: 500px;
+}
+
+.container:hover{
+    background-color: #e58eb9;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f8d3ec;
+    color: rgb(34, 30, 30);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: bold;
+}
+
+button:hover {
+    background-color: #b3005c;
+}
